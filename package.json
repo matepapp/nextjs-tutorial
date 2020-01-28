@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-tutorial",
+  "version": "1.0.0",
+  "description": "Official tutorial of the NextJS framework.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matepapp/nextjs-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matepapp/nextjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/matepapp/nextjs-tutorial#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
