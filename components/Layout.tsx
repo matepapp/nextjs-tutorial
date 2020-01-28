@@ -1,3 +1,4 @@
+import { FC } from "react";
 import Header from "./Header";
 
 const layoutStyle = {
@@ -6,10 +7,10 @@ const layoutStyle = {
   border: "1px solid #DDD"
 };
 
-const Layout = props => (
+const Layout: FC = ({ children }) => (
   <div style={layoutStyle}>
     <Header />
-    {props.children}
+    {children}
   </div>
 );
 
